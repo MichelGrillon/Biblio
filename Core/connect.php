@@ -19,16 +19,16 @@ class Connect
     {
         // Vérification si les constantes sont déjà définies
         if (!defined('SERVER')) {
-            define('SERVER', 'localhost');
+            define('SERVER', '#');
         }
         if (!defined('USER')) {
-            define('USER', 'root');
+            define('USER', '#');
         }
         if (!defined('PASSWORD')) {
-            define('PASSWORD', 'Tolos@31');
+            define('PASSWORD', '#');
         }
         if (!defined('BASE')) {
-            define('BASE', 'michely31');
+            define('BASE', '#');
         }
 
         try {
