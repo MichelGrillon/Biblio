@@ -1,0 +1,64 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    /* Ajouter display: flex */
+    justify-content: center;
+   /*flex-direction: column;*/
+    /* Centrer horizontalement */
+    align-items: center;
+    /* Centrer verticalement */
+}
+
+header,
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    /* Déplace le footer en bas de la page */
+    margin-top: auto;
+    /*position: absolute;
+    bottom: 0;
+    width: 100%;*/
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+main {
+    text-align: center;
+        /* Centrer le contenu du main */
+    margin-top: 10px;
+    /* Ajuster la marge supérieure souhaitée en pixels */
+    margin-bottom: 10px;
+        /* Ajouter de la marge en bas */
+}
+
+main h1 {
+   margin-bottom: 5px;
+   /* Ajouter de la marge en dessous du titre h1 */
+    
+}
+
+main .btn {
+    margin-top: 10px;
+    /* Ajouter de la marge en haut des boutons */
+    margin-bottom: 10px;
+    /* Ajouter de la marge en bas des boutons */
+}
+
+.picture {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
+}
