@@ -36,7 +36,7 @@ try {
             // Création de la session
             $_SESSION['username'] = $user->username;
             // Redirection vers la page d'accueil des créations après connexion réussie
-            header("Location: http://monsite/projects/php/cefiiBiblio/public/index.php?page=home");
+            header("Location: /../public/index.php?page=home");
             exit;
         } else {
             echo "Mot de passe incorrect";
